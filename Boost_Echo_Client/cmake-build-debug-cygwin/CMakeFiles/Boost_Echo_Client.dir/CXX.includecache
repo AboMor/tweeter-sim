@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/morab/OneDrive/Desktop/works/spl/ass 3/SPL3/Boost_Echo_Client/include/connectionHandler.h
+string
+-
+iostream
+-
+boost/asio.hpp
+-
+
+/cygdrive/c/Users/morab/OneDrive/Desktop/works/spl/ass 3/SPL3/Boost_Echo_Client/include/listenerThread.h
+connectionHandler.h
+/cygdrive/c/Users/morab/OneDrive/Desktop/works/spl/ass 3/SPL3/Boost_Echo_Client/include/connectionHandler.h
+
+/cygdrive/c/Users/morab/OneDrive/Desktop/works/spl/ass 3/SPL3/Boost_Echo_Client/src/MessageClient.cpp
+stdlib.h
+-
+../include/connectionHandler.h
+/cygdrive/c/Users/morab/OneDrive/Desktop/works/spl/ass 3/SPL3/Boost_Echo_Client/include/connectionHandler.h
+../include/listenerThread.h
+/cygdrive/c/Users/morab/OneDrive/Desktop/works/spl/ass 3/SPL3/Boost_Echo_Client/include/listenerThread.h
+
+/cygdrive/c/Users/morab/OneDrive/Desktop/works/spl/ass 3/SPL3/Boost_Echo_Client/src/connectionHandler.cpp
+../include/connectionHandler.h
+/cygdrive/c/Users/morab/OneDrive/Desktop/works/spl/ass 3/SPL3/Boost_Echo_Client/include/connectionHandler.h
+
+/cygdrive/c/Users/morab/OneDrive/Desktop/works/spl/ass 3/SPL3/Boost_Echo_Client/src/echoClient.cpp
+stdlib.h
+-
+../include/connectionHandler.h
+/cygdrive/c/Users/morab/OneDrive/Desktop/works/spl/ass 3/SPL3/Boost_Echo_Client/include/connectionHandler.h
+
+/cygdrive/c/Users/morab/OneDrive/Desktop/works/spl/ass 3/SPL3/Boost_Echo_Client/src/listenerThread.cpp
+../include/listenerThread.h
+/cygdrive/c/Users/morab/OneDrive/Desktop/works/spl/ass 3/SPL3/Boost_Echo_Client/include/listenerThread.h
+
